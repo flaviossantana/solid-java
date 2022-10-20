@@ -1,11 +1,16 @@
-# solid-java
+# Solid com Java
 Princípios da programação orientada a objetos
 
-## Coesão
-_União harmônica entre uma coisa e outra_
+## Coesão:
+- Uma classe coesa faz bem uma única coisa
+- Classes coesas não devem ter várias responsabilidades
 
-## Encapsulamento
-_É ato de você incluir e inserir algo em uma cápsula, você proteger alguma coisa independente do que seja essa coisa._
+ ##Encapsulamento:
+- Getters e setters não são formas eficientes de aplicar encapsulamento
+- É interessante fornecer acesso apenas ao que é necessário em nossas classes
+- O encapsulamento torna o uso das nossas classes mais fácil e intuitivo
 
-## Acoplamento
-_É o ato de você unir duas coisas, de você juntar duas coisas, de você ligar duas coisas._
+## Acoplamento:
+- Acoplamento é a dependência entre classes
+- Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento
+- Devemos controlar o nível de acoplamento na nossa aplicação (falaremos mais sobre isso)
