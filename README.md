@@ -1,6 +1,13 @@
 # Solid com Java
 Princípios da programação orientada a objetos
 
+O SOLID é um acrônimo que representa cinco princípios da programação orientada a objetos e design de código:
+- Single Responsibility Principle
+- Open Closed Principle
+- Liskov Substitution Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle
+
 ## Coesão
 - Uma classe coesa faz bem uma única coisa
 - Classes coesas não devem ter várias responsabilidades
@@ -27,3 +34,10 @@ Princípios da programação orientada a objetos
 ## Liskov Substitution Principle
 - O Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema.
 - Que, embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta;
+
+### Resumo
+- É mais interessante e mais seguro para o nosso código depender de interfaces (classes abstratas, assinaturas de métodos e interfaces em si) do que das implementações de uma classe;
+- As interfaces são menos propensas a sofrer mudanças enquanto implementações podem mudar a qualquer momento;
+- O Princípio de Inversão de Dependência (DIP) diz que implementações devem depender de abstrações e abstrações não devem depender de implementações;
+- As interfaces devem definir apenas os métodos que fazem sentido para seu contexto;
+- O Princípio de Segregação de Interfaces (ISP) diz que uma classe não deve ser obrigada a implementar um método que ela não precisa;
