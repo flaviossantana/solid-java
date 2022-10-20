@@ -47,4 +47,12 @@ public class Funcionario {
 		return dataUltimoReajuste;
 	}
 
+	public void promover(Cargo novoCargo) {
+		this.cargo = novoCargo;
+	}
+
+	public boolean isGerente() {
+		return Cargo.GERENTE == this.cargo;
+	}
+
 }
