@@ -1,7 +1,7 @@
 package io.com.rh.model;
 
 public enum Cargo {
-//faltando isso na main
+
 	ASSISTENTE {
 		@Override
 		public Cargo proximoCargo() {
