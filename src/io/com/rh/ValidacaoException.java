@@ -1,4 +1,4 @@
-package br.com.alura.rh;
+package io.com.rh;
 
 public class ValidacaoException extends RuntimeException {
 
