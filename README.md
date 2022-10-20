@@ -14,3 +14,7 @@ Princípios da programação orientada a objetos
 - Acoplamento é a dependência entre classes
 - Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento
 - Devemos controlar o nível de acoplamento na nossa aplicação (falaremos mais sobre isso)
+
+## Single Responsibility Principle
+- Que, segundo o Princípio de Responsabilidade Única (SRP), uma classe deve ter um e apenas um motivo para ser alterada;
+- Que classes/métodos/funções/módulos devem ter uma única responsabilidade bem definida;
