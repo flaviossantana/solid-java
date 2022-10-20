@@ -22,16 +22,8 @@ public class Funcionario {
 		return nome;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
 	public String getCpf() {
 		return cpf;
-	}
-
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
 	}
 
 	public Cargo getCargo() {
@@ -53,10 +45,6 @@ public class Funcionario {
 
 	public LocalDate getDataUltimoReajuste() {
 		return dataUltimoReajuste;
-	}
-
-	public void setDataUltimoReajuste(LocalDate dataUltimoReajuste) {
-		this.dataUltimoReajuste = dataUltimoReajuste;
 	}
 
 }
