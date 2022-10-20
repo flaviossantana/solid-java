@@ -35,12 +35,4 @@ public class Funcionario {
 		return Cargo.GERENTE == this.cargo;
 	}
 
-	public void promover(Cargo novoCargo) {
-		this.cargo = novoCargo;
-	}
-
-	public boolean isGerente() {
-		return Cargo.GERENTE == this.cargo;
-	}
-
 }
