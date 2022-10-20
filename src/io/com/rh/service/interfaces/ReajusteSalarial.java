@@ -1,4 +1,4 @@
-package io.com.rh.service;
+package io.com.rh.service.interfaces;
 
 import io.com.rh.model.Funcionario;
 
