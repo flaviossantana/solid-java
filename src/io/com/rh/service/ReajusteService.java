@@ -7,11 +7,11 @@ import io.com.rh.service.interfaces.ValidacaoReajusteSalarial;
 import java.math.BigDecimal;
 import java.util.List;
 
-public class ReajusteSalarialService implements ReajusteSalarial {
+public class ReajusteService implements ReajusteSalarial {
 
     private List<ValidacaoReajusteSalarial> validacoes;
 
-    public ReajusteSalarialService(List<ValidacaoReajusteSalarial> validacoes) {
+    public ReajusteService(List<ValidacaoReajusteSalarial> validacoes) {
         this.validacoes = validacoes;
     }
 
