@@ -14,4 +14,11 @@ public class DadosPessoais {
         this.cargo = cargo;
     }
 
+    void setCargo(Cargo cargo) {
+        this.cargo = cargo;
+    }
+
+    public Cargo getCargo() {
+        return cargo;
+    }
 }

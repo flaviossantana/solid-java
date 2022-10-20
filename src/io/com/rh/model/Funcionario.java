@@ -27,12 +27,16 @@ public class Funcionario {
         return dataUltimoReajuste;
     }
 
+    public Cargo getCargo() {
+        return dadosPessoais.getCargo();
+    }
+
 	public void promover(Cargo novoCargo) {
-		this.cargo = novoCargo;
+		this.dadosPessoais.setCargo(novoCargo);
 	}
 
 	public boolean isGerente() {
-		return Cargo.GERENTE == this.cargo;
+		return Cargo.GERENTE == this.dadosPessoais.getCargo();
 	}
 
 }
